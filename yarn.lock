@@ -230,6 +230,13 @@
     react-remove-scroll "^2.5.5"
     react-textarea-autosize "8.3.4"
 
+"@mantine/dates@^6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@mantine/dates/-/dates-6.0.5.tgz#3d0587a0f9562c7764f0f1a9a1ef4ea6e57e344b"
+  integrity sha512-IvHD+P47qt7CX/mc2vrZOTa3LzBkW6BGCwqoVXsfz7839fxPJaGhDrWkE2BuBhqPVTReMZJG4gK2YvT99jNJXA==
+  dependencies:
+    "@mantine/utils" "6.0.5"
+
 "@mantine/hooks@^6.0.5":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-6.0.5.tgz#36015c5047fe7608fa7b0977edc241098611267a"
@@ -815,6 +822,11 @@ damerau-levenshtein@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
+
+dayjs@^1.11.7:
+  version "1.11.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
 
 debug@^3.2.7:
   version "3.2.7"

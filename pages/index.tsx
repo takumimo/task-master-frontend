@@ -1,7 +1,24 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import React from "react";
+import TaskList from "../components/TaskList";
+import Calendar from "../components/Calendar";
+import Navigation from "../components/Navigation";
+import { Container, Paper } from "@mantine/core";
 
-export default function Home() {
-  return <div>Home</div>;
-}
+const tasks = [
+  { id: 1, title: "Task 1", completed: false },
+  { id: 2, title: "Task 2", completed: true },
+];
+
+const Home: React.FC = () => {
+  return (
+    <Container>
+      <Paper p="xl" shadow="xs" style={{ marginTop: "40px" }}>
+        {/* <Calendar /> */}
+        <TaskList tasks={tasks} />
+      </Paper>
+      <Navigation />
+    </Container>
+  );
+};
+
+export default Home;
